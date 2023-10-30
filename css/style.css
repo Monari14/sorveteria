@@ -1,0 +1,275 @@
+body {
+    font-family: cursive;
+    background-color: #e4e4e4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5d6e9;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.quadrado {
+    max-width: 800px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+header img {
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    margin-top: -2px;
+    border-radius: 3000px;
+}
+
+.menu {
+    margin-left: auto;
+    margin: 0 auto;
+
+}
+
+.menu a img {
+    color: #fff;
+    text-decoration: none;
+    width: 120px;
+}
+
+.menu a img:hover {
+    color: #fff;
+    text-decoration: none;
+    width: 120px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 30px;
+}
+
+.linha-vertical.right {
+    left: auto;
+    right: 0;
+}
+
+.linha-vertical {
+    display: none;
+    position: fixed;
+    height: 100%;
+    background-color: #1f1f1f;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+    .linha-vertical {
+        display: block;
+    }
+
+    .linha-vertical.right {
+        display: block;
+    }
+}
+
+.botaomenu {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #333;
+    height: 40px;
+}
+
+.botaomenu:hover {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #0ed145;
+    height: 40px;
+}
+
+.h3menu>a:hover {
+    margin-top: -20px;
+    color: #51a367;
+    text-decoration: none;
+
+}
+
+.h3menu>a {
+    color: white;
+    text-decoration: none;
+}
+
+.h4menu>a:hover {
+    margin-top: -20px;
+    color: #51a367;
+    text-decoration: none;
+}
+
+.h4menu>a {
+    color: white;
+    text-decoration: none;
+}
+
+.h5menu>a:hover {
+    margin-top: -20px;
+    color: #51a367;
+    text-decoration: none;
+}
+
+.h5menu>a {
+    color: white;
+    text-decoration: none;
+}
+
+.h6menu>a:hover {
+    margin-top: -20px;
+    color: #51a367;
+    text-decoration: none;
+}
+
+.h6menu>a {
+    color: white;
+    text-decoration: none;
+}
+
+.h7menu>a:hover {
+    margin-top: -20px;
+    color: #51a367;
+    text-decoration: none;
+}
+
+.h7menu>a {
+    color: white;
+    text-decoration: none;
+}
+
+header>h1,
+header img {
+    margin-top: -10px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.quadrado {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 1000px rgba(209, 209, 209, 0.3);
+    width: 1000px;
+    height: 1000px;
+}
+
+h1 {
+    margin-left: 30px;
+}
+
+p {
+    text-align: justify;
+}
+
+.left {
+    margin-right: 400px;
+}
+
+.img {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -110px;
+}
+
+.img:hover {
+    width: 400px;
+    margin-left: 100px;
+    margin-top: -110px;
+}
+
+.img2 {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -110px;
+}
+
+.img2:hover {
+    width: 400px;
+    margin-left: 140px;
+    margin-top: -110px;
+}
+
+
+.formulario-cadastro {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.cadastro {
+    margin: 0 auto;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    font-size: 20pt;
+}
+
+input:hover {
+    width: 370px;
+    height: 30px;
+    font-size: 20pt;
+}
+
+label {
+    font-size: 20pt;
+}
+
+.botao-cadastro {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 2px solid #0074D9;
+    height: 40px;
+}
+
+.botao-cadastro:hover {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 2px solid #0ed145;
+    height: 40px;
+}

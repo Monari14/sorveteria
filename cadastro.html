@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Estoque</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .formulario-cadastro {
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            align-items: center;
+        }
+
+        button > .h2cadas {
+            color: white;
+            border-radius: 30px;
+            width: 200px;
+            font-size: 20pt;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .h2cadas>a {
+            border-color: #0074D9;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .h2cadas>a:hover {
+            color: #51a367;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="linha-vertical.right"></div>
+        <div class="linha-vertical"></div>
+        <header>
+            <a href="index.html"><img src="images/logopote.png" alt="logo"></a>
+            <h1>Sorvetes do Céu</h1>
+            <div class="menu">
+                <button class="botaomenu">
+                    <div class="h3menu"><a href="sobre.html">Sobre</a></div>
+                </button>
+                <button class="botaomenu">
+                    <div class="h4menu"><a href="cardapio.html">Cardápio</a></div>
+                </button>
+                <button class="botaomenu">
+                    <div class="h5menu"><a href="promocoes.html">Promoções</a></div>
+                </button>
+                <button class="botaomenu">
+                    <div class="h6menu"><a href="contato.html">Contato</a></div>
+                </button>
+                <button class="botaomenu">
+                    <div class="h7menu"><a href="cadastro.html">Cadastre-se</a></div>
+                </button>
+            </div>
+        </header>
+        <div class="formulario-cadastro">
+            <form action="cadastro.php" method="post">
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">E-mail:</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="senha">Senha:</label>
+                <br>
+                <input type="password" id="senha" name="senha" required>
+                <br><br>
+                <button class="botao-cadastro" type="submit">
+                    <div class="h2cadas" style="margin-top: -8px;"><a href="cadastro.html">Cadastre-se</a></div>
+                </button>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
